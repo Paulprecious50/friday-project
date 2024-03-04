@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* border: 2px solid red; */
+}
+.general-content{
+    width: 80%;
+    border: 2px solid black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    font-size: 20px;
+}
+.header b{
+    color: blue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.btn{
+    display: flex;
+    gap: 25px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+     width: 280px;
+     height: 55px;
+     justify-content: center;
+     font-weight: bold;
+     border-radius: 8px;
+     border-style: none;
+     align-items: center;
+}
+.menu{
+ display:none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    width: 100%;
+    height: 90%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.analytics-intro{
+    width: 45%;
+    height: 100%;
+    border: 2px solid yellow;
+}
+
+.analytics-img{
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+.btns{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+.followers{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    height: 10%;
+    width:50%;
+    position: relative;
+    /* display: flex; */
+ }
+ .followers-p b{
+ color: blue;
+ }
+ .one{
+    position: absolute;
+    margin-right: 50px;
+    /* border: 2px solid blue; */
+    /* width:5% ; */
+ }
+
+  .two{
+   /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 25px;
+ }
+ .three{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 50px;
+ }
+ .four{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 75px;
+ }
+ .five{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 97px;
+ }
+ .six{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 122px;
+ }
+ .seven{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 147px;
+ }
+.eight{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 172px;
+}
+.nine{
+    /* border: 2px solid black; */
+   position: absolute;
+   margin-left: 197px;
+}
+main a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    line-height: 30px;
+    color: slategray;
+}
+.analytics-img img {
+    
+    width: 100%;
+    height: 100%;
+}
+.section{
+    border: 2px solid black;
+    height: 10vh;
+    width: 50%;
+}
+.section h2{
+    width: 45%;
+    height: 100%;
+}
+.section-container{
+    border: 2px solid blue;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.analytics2{
+    width: 45%;
+    height: 45%;
+    border: 2px solid blue;
+}
+.smart-analyzer{
+    width: 45%;
+    height: 45%;
+    border: 2px solid brown;
+}
+.scheduled-tweet{
+    width: 45%;
+    height: 45%;
+    border: 2px solid brown;
+}
+.dark-mode{
+    width: 45%;
+    height: 45%;
+    border: 2px solid blue;
+}
+
+/* small screen or small devices */
+@media(max-width:575px){
+      nav{
+        display: none;
+      }
+      .menu{
+        display: block;
+      }
+    .analytics-intro{
+        display: none;
+    }
+    .analytics-img{
+        width: 100%;
+    }
+}
+/* meduim screen or tablet */
+@media(min-width:576px) and (max-width:768px){
+    .general-content{
+       width: 95%;
+    }
+
+    .btn{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    nav{
+       font-size: 18px;
+       gap: 15px;
+    }
+    main{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .analytics-intro{
+        display: none;
+    }
+    .analytics-img{
+        width: 100%;
+    }
+}
