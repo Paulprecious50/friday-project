@@ -176,7 +176,7 @@ main p{
 }
 .analytics2{
     /* width: 45%; */
-    height: 45%;
+    /* height: 45%; */
     border: 1px solid black;
 }
 .analytics2-container{
@@ -256,9 +256,9 @@ main p{
   /* border: 2px solid blue; */
 }
 .cont1-twt{
-    display: flex;
+    /* display: flex; */
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .cont1-main{
     width: 70%;
@@ -379,6 +379,7 @@ main p{
  background-color: #00ACEE;
  color: #ffffff;
  border-style: none;
+ /* display: flex; */
  /* border: 2px solid fuchsia; */
 
 }
