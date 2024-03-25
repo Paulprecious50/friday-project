@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    border: 2px solid red;
+    height: 500px;
+}
+
+/* General Styles */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border: 2px solid red;
+    /* height: 100px; */
+    /* width: 66.66%; */
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    border: 2px solid red;
+    /* height: 100px; */
+    /* width: 33.33%; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.btn button{
+    background-color: rgb(29, 161, 242);
+    color: white;
+    /* width: 50%; */
+    border-style: none;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.home,
+.pricing,
+.faq{
+    /* border: 2px solid red; */
+    /* width: 12%; */
+    text-decoration: none;
+}
+
+
+/* Header */
+.header{
+    /* border: 1px solid red; */
+    /* height: 300px; */
+    /* height: 100vh; */
+}
+
+
+.hero{
+
+}
+
+.hero_details{
+    border: 1px solid red;
+    /* width: 60%; */
+    /* height: 100px; */
+}
+
+.hero_image{
+    border: 1px solid red;
+    /* width: 40%; */
+    /* height: 100px; */
+}
+
+.hero_image img{
+    width: 100%;   
+}
+.avatar_2{
+    position: relative;
+    right: 25px;
+}
+.avatar_3{
+    position: relative;
+    right: 50px;
+}
+
+
+
+
+/* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .hamburger{
+        display: none;
+    }
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        width: 90%;
+    }
+    .nav-links{
+        width: 75%;
+        justify-content: space-between;
+        gap: unset;
+    }
+    .hero_details{
+        order: 1;
+    }
+
+    .logo{
+        width: 25%;
+    }
+    .nav-links{
+        width: 75%;
+    }
+    .btn button{
+        width: 30%;
+    }
+    .hamburger{
+        display: none;
+    }
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+    .btn button{
+        width: 30%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+    .navbar{
+        justify-content: space-between;
+    }
+    .nav-links{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
